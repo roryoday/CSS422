@@ -1,0 +1,7 @@
+MyCustomChecks.desc = Checks for deliverable 1
+
+HalsteadLength.name = HalsteadLength
+HalsteadLength.desc = Checks that the number of operators of a class does not exceed a configured maximum based on operand occurrences
+
+LinesOfComment = LinesOfComment
+LinesOfComment.desc = Counts number of comment lines

@@ -1,0 +1,74 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Automatic-Module-Name: org.eclipse.passage.ldc
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.passage.ldc;singleton:=true
+Bundle-Version: 0.6.0.v20210409-1306
+Bundle-Name: %Bundle-Name
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Copyright: %Bundle-Copyright
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Require-Bundle: org.eclipse.ui.intro;bundle-version="0.0.0",org.eclipse.
+ ui.cheatsheets;bundle-version="0.0.0"
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse-passage/pas
+ sage.git;path="bundles/org.eclipse.passage.ldc";commitId=3b05778cf6fe49
+ f25c9f2f7e7c0d1ec465bc88a7
+
+Name: about.properties
+SHA-256-Digest: 9SWKg3Nbozb8iXUV6xFRZoNE/T0l6qDFTuLhTA785GE=
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: plugin.xml
+SHA-256-Digest: CvpIkkngQpxOuQtPhYmzBSy6Vj/ryUDFN7LGv5k8QA8=
+
+Name: intro/css/overview.css
+SHA-256-Digest: 8QT/gzV4s2jSPIPxTBmy9TOuEEYZqcqu83iKP5LAwWU=
+
+Name: intro/css/overview.properties
+SHA-256-Digest: vpoK7ZnAVof5Mo8HLsWWI3dgteZhe4KPLvWJziX3zC4=
+
+Name: intro/overviewExtensionContent.xml
+SHA-256-Digest: iTXnE7syk/xY0iENyhthzxu7JZFqtW98nV7VyDYvpjQ=
+
+Name: cheatsheets/rcp4x-composite.xml
+SHA-256-Digest: crxl4U7NI344PvBR17pk78rdUPqFQJwJyu1liexUcBA=
+
+Name: about.mappings
+SHA-256-Digest: kJY7qUfBBTU1tx1pqHPhOme3oFWOOedVzYucGa6pZOc=
+
+Name: cheatsheets/tasks/rcp3x-create.xml
+SHA-256-Digest: aVdTF/SzcupjJz1CBvz0w8IxBFGr+LZtu+zYbOcMG+k=
+
+Name: .gitkeep
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: cheatsheets/tasks/rcp4x-create.xml
+SHA-256-Digest: jpKMJXDhHyd+uql+LqQRVPU1GPUWFRoPkYlOlhVoccQ=
+
+Name: intro/css/tutorials.css
+SHA-256-Digest: /7cSkDEpjSm10QJWQ72OcyIqdyNJBTajAOIE/u5I1jw=
+
+Name: about.ini
+SHA-256-Digest: WM5h2KzaMGtg5vY1QV7JKBU6PYclbmBw1QC7K7tg+go=
+
+Name: images/topiclabel/menu_item.png
+SHA-256-Digest: PLDpBZ3ZnF2sQ6S+ss9gmlPwVZIGrW0PHN3vUaMQ44Y=
+
+Name: intro/tutorialsExtensionContent.xml
+SHA-256-Digest: BwETJOSCVLQ865sl6wYe1Vl7Ylg0mBvAXHluKwoxxho=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: HS5hVgGxwMSAjgFQdcSJJb4O7SxiEoXYQ+O6HiTmREY=
+
+Name: intro/css/tutorials.properties
+SHA-256-Digest: vpoK7ZnAVof5Mo8HLsWWI3dgteZhe4KPLvWJziX3zC4=
+
+Name: cheatsheets/rcp3x-composite.xml
+SHA-256-Digest: Na7yz0cP65fPf04JAQseerR5GSVbXtmEz/f9GtAa7Zc=
+
+Name: passage32.png
+SHA-256-Digest: WeV+DM96uXkSrpeLvHCJcb3oizQy+YbkSFDBV9YHL18=
+
