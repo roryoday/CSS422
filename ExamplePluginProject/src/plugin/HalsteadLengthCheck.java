@@ -7,39 +7,30 @@ public class HalsteadLengthCheck extends AbstractCheck {
 	
 	
 
-	int[] operatorTokens = {
-			
-		 /* Unary Operator Type*/	
+	int[] operators = {
+		//logical
+		TokenTypes.LAND,TokenTypes.LOR,
+		//unary
 		TokenTypes.POST_INC,TokenTypes.POST_DEC,TokenTypes.DEC,TokenTypes.INC,
 		TokenTypes.LNOT,TokenTypes.LNOT,
-		
-		/* Arithmetic Operator type */
+		//arithmetic
 		TokenTypes.STAR,TokenTypes.DIV,TokenTypes.MOD,TokenTypes.PLUS,TokenTypes.MINUS,
 		TokenTypes.BSR,TokenTypes.SR,TokenTypes.SL,
-		
-		/* Relational Operator type */
+		//relational
 		TokenTypes.LT,TokenTypes.GT,TokenTypes.LE,TokenTypes.GE,
 		TokenTypes.LITERAL_INSTANCEOF,TokenTypes.EQUAL,TokenTypes.NOT_EQUAL,
-		
-		/* Bitwise */
-		TokenTypes.BAND,TokenTypes.BXOR,TokenTypes.LOR,
-		
-		/* Logical Operator type */
-		TokenTypes.LAND,TokenTypes.LOR,
-		
-		/* Ternary  Operator type */
+		//ternary
 		TokenTypes.QUESTION,TokenTypes.EOF,
-		
-		/* Assignment  Operator type  */
+		//assignment
 		TokenTypes.ASSIGN,TokenTypes.BAND_ASSIGN,TokenTypes.BOR_ASSIGN,
 		TokenTypes.BSR_ASSIGN,TokenTypes.BXOR_ASSIGN,TokenTypes.DIV_ASSIGN,
 		TokenTypes.MINUS_ASSIGN,TokenTypes.MOD_ASSIGN,TokenTypes.PLUS_ASSIGN,
 		TokenTypes.SL_ASSIGN,TokenTypes.SR_ASSIGN,TokenTypes.STAR_ASSIGN,
-		
-		/* operand */
+		//bitwise
+		TokenTypes.BAND,TokenTypes.BXOR,TokenTypes.LOR,
+		//operand
 		TokenTypes.NUM_FLOAT,TokenTypes.NUM_LONG,TokenTypes.NUM_DOUBLE,TokenTypes.IDENT,
 		TokenTypes.NUM_INT
-		
 	   };	
 	
 		
@@ -53,12 +44,12 @@ public class HalsteadLengthCheck extends AbstractCheck {
 	
 	 @Override
 	    public int[] getDefaultTokens() {
-	        return operatorTokens;
+	        return operators;
 	    }
 	  
 	 @Override
 		public int[] getRequiredTokens() {
-			return  operatorTokens;
+			return  operators;
 		}
 	 
 	 @Override
@@ -68,7 +59,7 @@ public class HalsteadLengthCheck extends AbstractCheck {
 	 
 	 @Override
 		public int[] getAcceptableTokens() {
-			return  operatorTokens; 
+			return  operators; 
 		}
 	 
 	 @Override
