@@ -33,7 +33,7 @@ public class NumberOfCommetsCheck extends AbstractCheck {
 	
 	@Override
 	public void finishTree(DetailAST rootAST) {
-		log(rootAST.getLineNo(),count+"");
+		log(rootAST.getLineNo(),count+" R.O.");
 	}
 	
 	@Override

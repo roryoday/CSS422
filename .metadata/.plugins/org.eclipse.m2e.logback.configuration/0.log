@@ -1,0 +1,75 @@
+2021-09-24 13:36:57,984 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-09-24 13:38:51,879 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.parent:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\eclipse-cs\pom.xml.
+2021-09-24 13:38:55,340 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.ui:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.ui\pom.xml.
+2021-09-24 13:38:55,559 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs-feature\pom.xml.
+2021-09-24 13:38:55,774 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs-updatesite:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs-updatesite\pom.xml.
+2021-09-24 13:38:56,583 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:38:56,583 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs-updatesite\src\main\resources
+2021-09-24 13:38:56,764 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.branding:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.branding\pom.xml.
+2021-09-24 13:38:56,771 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:38:56,771 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.branding\src\main\resources
+2021-09-24 13:38:56,773 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:38:56,773 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.branding\test
+2021-09-24 13:38:57,509 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.checkstyle:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.checkstyle\pom.xml.
+2021-09-24 13:38:58,493 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - File already exist, skipping
+2021-09-24 13:38:58,830 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:38:58,830 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.checkstyle\src\main\resources
+2021-09-24 13:38:58,831 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:38:58,835 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 13:39:05,326 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.core:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.core\pom.xml.
+2021-09-24 13:39:05,330 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:05,330 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\src\main\resources
+2021-09-24 13:39:05,331 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:05,331 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\test
+2021-09-24 13:39:05,643 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.doc:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.doc\pom.xml.
+2021-09-24 13:39:06,263 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:06,269 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 188 resources
+2021-09-24 13:39:06,290 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:06,290 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.doc\test
+2021-09-24 13:39:06,364 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using DEFAULT lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.target:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.target\pom.xml.
+2021-09-24 13:39:11,504 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:11,505 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.ui\src\main\resources
+2021-09-24 13:39:11,506 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:11,509 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 47 resources
+2021-09-24 13:39:12,104 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.sonatype.tycho.m2e.tychoLifecycleMapping lifecycle mapping for MavenProject: net.sf.eclipsecs:net.sf.eclipsecs.sample:8.35.0-SNAPSHOT @ D:\Projects\CPT422local\net.sf.eclipsecs.sample\pom.xml.
+2021-09-24 13:39:12,127 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:12,127 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\src\main\resources
+2021-09-24 13:39:12,128 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:39:12,128 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\test
+2021-09-24 13:43:35,651 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,651 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\src\main\resources
+2021-09-24 13:43:35,652 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,652 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\test
+2021-09-24 13:43:35,738 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,739 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.ui\src\main\resources
+2021-09-24 13:43:35,739 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,740 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 13:43:35,759 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,760 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\src\main\resources
+2021-09-24 13:43:35,761 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:43:35,761 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\test
+2021-09-24 13:48:17,082 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,082 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.branding\src\main\resources
+2021-09-24 13:48:17,082 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,083 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.branding\test
+2021-09-24 13:48:17,314 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - File already exist, skipping
+2021-09-24 13:48:17,507 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,507 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.checkstyle\src\main\resources
+2021-09-24 13:48:17,508 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,508 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 13:48:17,515 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,515 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\src\main\resources
+2021-09-24 13:48:17,516 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,516 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.core\test
+2021-09-24 13:48:17,698 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,710 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 13:48:17,715 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,715 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.doc\test
+2021-09-24 13:48:17,772 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,772 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.ui\src\main\resources
+2021-09-24 13:48:17,773 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,773 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-09-24 13:48:17,796 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,796 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\src\main\resources
+2021-09-24 13:48:17,796 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-24 13:48:17,797 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Projects\CPT422local\net.sf.eclipsecs.sample\test

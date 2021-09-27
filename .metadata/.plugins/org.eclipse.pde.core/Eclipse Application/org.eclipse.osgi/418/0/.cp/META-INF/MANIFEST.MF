@@ -1,0 +1,117 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.rap.tools.intro;singleton:=true
+Bundle-Version: 3.18.0.20210618-0746
+Require-Bundle: org.eclipse.ui.intro,org.eclipse.ui.intro.universal,org.
+ eclipse.ui,org.eclipse.ui.cheatsheets,org.eclipse.pde.core,org.eclipse.
+ core.runtime,org.eclipse.ant.core,org.eclipse.core.resources,org.eclips
+ e.equinox.p2.metadata,org.eclipse.equinox.p2.core,org.eclipse.equinox.p
+ 2.repository
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Eclipse-LazyStart: true
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Bundle-Activator: org.eclipse.rap.tools.intro.internal.IntroPlugin
+Bundle-Vendor: %Bundle-Vendor
+Export-Package: org.eclipse.rap.tools.intro.internal;x-friends:="org.ecl
+ ipse.rap.tools.tests",org.eclipse.rap.tools.intro.internal.commands;x-i
+ nternal:=true,org.eclipse.rap.tools.intro.internal.target;x-friends:="o
+ rg.eclipse.rap.tools.tests"
+Automatic-Module-Name: org.eclipse.rap.tools.intro
+Eclipse-SourceReferences: scm:git:https://git.eclipse.org/r/rap/org.ecli
+ pse.rap.tools.git;path="bundles/org.eclipse.rap.tools.intro";commitId=1
+ e7cd48b57a50343d46fb161a38fd4cb932f0d6f
+
+Name: plugin.xml
+SHA-256-Digest: KMWRlBbxcOaTIkOVT3WFbt26h05kdXukM6EZ8xeucc0=
+
+Name: org/eclipse/rap/tools/intro/internal/ErrorUtil$1.class
+SHA-256-Digest: zOpQpeL/1XJJyuJ9Iq9DlfMNCBY/Sts1lWcEWBk5TO0=
+
+Name: org/eclipse/rap/tools/intro/internal/target/messages.properties
+SHA-256-Digest: /sDlBbk3HXJVA07z7n99MbInC5usw/UHoBlZT1yVLhE=
+
+Name: org/eclipse/rap/tools/intro/internal/target/TargetProvider.class
+SHA-256-Digest: binT/bRgAJl23ikg84CJ+shDgBOjSQomSHc/7/5MgkY=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallRAPTargetHandle
+ r$2.class
+SHA-256-Digest: +YIjOtx6EUMDoefWNez7OUALYBPNsTi9/h7OpoH8Kkk=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallTargetDialog.cl
+ ass
+SHA-256-Digest: /xRQy/JuecDfJN3EYQXzYpl6svysdR713pAHdIpzFy0=
+
+Name: org/eclipse/rap/tools/intro/internal/target/IntroMessages.class
+SHA-256-Digest: ze9gZqko3x9fU/uVafF0OsS7YmuKaEUhzkFcRVnrEJU=
+
+Name: intro/graphics/quick_tour.gif
+SHA-256-Digest: hpoYR6OoHrbtHuGhrKo7m5Ws0l4Gp5ks8mSLSLl32go=
+
+Name: org/eclipse/rap/tools/intro/internal/ErrorUtil.class
+SHA-256-Digest: p70CrFBzugSLHm2pCPRvS7MtHEIvLqUz0+8IiNoYiH0=
+
+Name: plugin.properties
+SHA-256-Digest: w4ZpeJD/unMKme5tgae7mtav2u4edXohyKamIU3U7Zk=
+
+Name: intro/graphics/extract_target.gif
+SHA-256-Digest: We6IVfm9iDzgPNhumuaAIjIjbsA+/kt7ENPRU4Iyfwk=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallTargetDialog$1.
+ class
+SHA-256-Digest: dQPBGCbfN3sR78hXrzzC0P3PCW5V5lP4LP/IMfJS0Ms=
+
+Name: cheatsheets/getting-started.xml
+SHA-256-Digest: q8WbpQu0wLScIqYB38WxBZgG1KeOuI4BxdIxgH9fv9c=
+
+Name: about.html
+SHA-256-Digest: N1TBQr7aCTxHDHEJuemUSsfodDi/BIzPe7FLjINdujQ=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallRAPTargetHandle
+ r$1.class
+SHA-256-Digest: OcsF36X9ai4oKk9nZ3YtKsslm0tEkAL103M8mVFjh2k=
+
+Name: intro/css/overview.css
+SHA-256-Digest: 2yyCl9Z0wPM+roDm5u6u8Tb2wTzcxdv/HKi5bq/lyqc=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallRAPTargetAction
+ .class
+SHA-256-Digest: 70tis2G4K+svme5gfjeiRkBMWGJCctsnPpTW+l2Po64=
+
+Name: org/eclipse/rap/tools/intro/internal/target/TargetSwitcher.class
+SHA-256-Digest: qAGqTb9Zne5AFu3G+yarfhtFx3Xuz603w70e7eBAyv0=
+
+Name: intro/graphics/rap.png
+SHA-256-Digest: 2c49HWNzd18h5OLWkfT5iUGbhGbLoaRPNFK8qukBefI=
+
+Name: org/eclipse/rap/tools/intro/internal/target/InstallRAPTargetHandle
+ r.class
+SHA-256-Digest: PoQ/Mv7TPUzMtAm93WM6cBJBNRtrOwKH0DTjpo043yc=
+
+Name: intro/graphics/tu_checkout48.gif
+SHA-256-Digest: PD+TQNKyM90b0HvBc0iJZGEQxR4Xj+Q7l8qSVyDUPhk=
+
+Name: intro/overviewExtensionContent.xml
+SHA-256-Digest: pA377u9MtDYSFYVotSgaOZkTMQ+hXDmRVT7z5kxlAYA=
+
+Name: org/eclipse/rap/tools/intro/internal/commands/LaunchRAPApplication
+ $1.class
+SHA-256-Digest: 7we8vAsnnOAapWHYt77tUetBJVES1PsE2w6JoBiIPqs=
+
+Name: META-INF/maven/org.eclipse.rap/org.eclipse.rap.tools.intro/pom.xml
+SHA-256-Digest: hdxyct6aIIdBGtcaNcAlGxqOITAPeg4tvJbcD3PjGDI=
+
+Name: org/eclipse/rap/tools/intro/internal/IntroPlugin.class
+SHA-256-Digest: TVb1gITRz69g6kyksafB2MlYoj6fsBN/SDftdYLHA4A=
+
+Name: org/eclipse/rap/tools/intro/internal/commands/LaunchRAPApplication
+ .class
+SHA-256-Digest: dvF2jNgcIBjK03QXT0U8GP0ttaOfy6N3gClU/m8E4YM=
+
+Name: META-INF/maven/org.eclipse.rap/org.eclipse.rap.tools.intro/pom.pro
+ perties
+SHA-256-Digest: Y6a3QR9gw0UBdQRwigU/hyg8TYSGUIyN5O9WI3uTNCg=
+
