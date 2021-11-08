@@ -71,7 +71,7 @@ public class HalsteadDifficultyCheck extends AbstractCheck {
 		return (getUniqueOperators() / 2) *  (getOperands() / getUniqueOperands());
 	}
 	
-	@Override // log out results.
+	@Override
 	public void finishTree(DetailAST rootAST) {
 	
 		double difficultyResults = CalcHalsteadDifficulty();

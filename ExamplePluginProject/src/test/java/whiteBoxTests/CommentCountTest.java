@@ -59,7 +59,7 @@ public class CommentCountTest {
 	}
 	
 	@Test
-	public void defaultTokensTest() {
+	public void DefaultTokensTest() {
 		
 		CommentCountCheck test = new CommentCountCheck();
 		assertArrayEquals(commentToken, test.getDefaultTokens());
