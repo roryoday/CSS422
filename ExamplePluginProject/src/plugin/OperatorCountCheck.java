@@ -82,17 +82,19 @@ public class OperatorCountCheck extends AbstractCheck {
 
 	@Override
 	public void finishTree(DetailAST rootAST) {
-		log(0, " {0} unique operators that appear {1} times.", uniqueOperators.size(), operatorCount);
+		try {
+			log(0, " {0} unique operators that appear {1} times.", uniqueOperators.size(), operatorCount);
+		}
+		catch (Exception e) {
+			System.out.println("Error: Unable to walk through tree");
+		}
+		
 	}
 
-	public int getResults() {
-		return operatorCount;
-	}
-	
 	public int getOperatorCount() {
 		return operatorCount;
 	}
-
+	
 	public int getOperatorUniqueCount() {
 		return uniqueOperators.size();
 	}

@@ -6,14 +6,46 @@
     <rule-group-metadata name="My Custom Checks"  priority="1600">
         <description>%MyCustomChecks.desc</description>
 
-        <rule-metadata name="%HalsteadLength.name" internal-name="HalsteadLengthCheck" parent="TreeWalker">
+        <rule-metadata name="%HalsteadLengthCheck.name" internal-name="HalsteadLengthCheck" parent="TreeWalker">
             <alternative-name internal-name="plugin.HalsteadLengthCheck" />
-            <description>%HalsteadLength.desc</description>
+            <description>%HalsteadLengthCheck.desc</description>
         </rule-metadata>
         
-        <rule-metadata name="%NumberOfCommets.name" internal-name="NumberOfCommetsCheck" parent="TreeWalker">
-            <alternative-name internal-name="plugin.NumberOfCommetsCheck" />
-            <description>%NumberofCommets.desc</description>
+        <rule-metadata name="%CommentCountCheck.name" internal-name="CommentCountCheck" parent="TreeWalker">
+            <alternative-name internal-name="plugin.CommentCountCheck" />
+            <description>%CommentCountCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%ExpressionCountCheck.name" internal-name="ExpressionCountCheck" parent="TreeWalker">
+            <alternative-name internal-name="plugin.ExpressionCountCheck" />
+            <description>%ExpressionCountCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadDifficultyCheck.name" internal-name="HalsteadDifficultyCheck" parent="TreeWalker">
+            <alternative-name internal-name="plugin.HalsteadDifficultyCheck" />
+            <description>%HalsteadDifficultyCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadEffortCheck.name" internal-name="HalsteadEffortCheck" parent="TreeWalker">
+            <alternative-name internal-name="HalsteadEffortCheck.ExpressionCountCheck" />
+            <description>%HalsteadEffortCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadVocabularyCheck.name" internal-name="HalsteadVocabularyCheck" parent="TreeWalker">
+            <alternative-name internal-name="HalsteadVocabularyCheck.ExpressionCountCheck" />
+            <description>%HalsteadVocabularyCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%HalsteadVolumeCheck.name" internal-name="HalsteadVolumeCheck" parent="TreeWalker">
+            <alternative-name internal-name="HalsteadVolumeCheck.ExpressionCountCheck" />
+            <description>%HalsteadVolumeCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%LineCommentCountCheck.name" internal-name="LineCommentCountCheck" parent="TreeWalker">
+            <alternative-name internal-name="LineCommentCountCheck.ExpressionCountCheck" />
+            <description>%LineCommentCountCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%OperandCountCheck.name" internal-name="OperandCountCheck" parent="TreeWalker">
+            <alternative-name internal-name="OperandCountCheck.ExpressionCountCheck" />
+            <description>%OperandCountCheck.desc</description>
+        </rule-metadata>
+        <rule-metadata name="%OperatorCountCheck.name" internal-name="OperatorCountCheck" parent="TreeWalker">
+            <alternative-name internal-name="OperatorCountCheck.ExpressionCountCheck" />
+            <description>%OperatorCountCheck.desc</description>
         </rule-metadata>
     </rule-group-metadata>
 </checkstyle-metadata>

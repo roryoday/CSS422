@@ -82,11 +82,17 @@ public class HalsteadLengthCheck extends AbstractCheck {
 		private int[] operandTokens = operandCount.getDefaultTokens();
 		private int[] operatorTokens = operatorCount.getDefaultTokens();
 		
-		// Calculates Halstead length.
 		public int calcHalsteadLength() {
-			return operandCount.getOperandCount() +  operatorCount.getOperatorCount();
+			return getOperandCount() +  getOperatorCount();
 		}
-
+		
+		public int getOperandCount() {
+			return operandCount.getOperandCount();
+		}
+		
+		public int getOperatorCount() {
+			return operatorCount.getOperatorCount();
+		}
 
 		@Override
 		public void beginTree(DetailAST rootAST) {
@@ -121,19 +127,24 @@ public class HalsteadLengthCheck extends AbstractCheck {
 			}
 		}
 		
-		//returns true if list of ints contains specified int
-		 private boolean arrayContains(int[] arr, int t) {
-			 for(int i =0;i<arr.length;i++) {
-				 if(arr[i]==t) {
-					 return true;
-				 }	  
-			 }
-			 return false;
-		  }
+		//check if array contains value t
+		private boolean arrayContains(int[] arr, int t) {
+			for(int i =0;i<arr.length;i++) {
+				if(arr[i]==t) {
+					return true;
+				}	  
+			}
+			return false;
+		}
 		 
 		@Override
 		public void finishTree(DetailAST rootAST) {
-			log(rootAST.getLineNo(),calcHalsteadLength()+" R.O.");
+			try {
+				log(rootAST.getLineNo(),"Halstead Length: " + calcHalsteadLength()+" R.O."); }
+			catch (Exception e)
+			{
+					System.out.println("Error: Unable to walk through tree");
+			}
 		}
 	  
 }

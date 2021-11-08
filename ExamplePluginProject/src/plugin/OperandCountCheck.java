@@ -13,7 +13,7 @@ public class OperandCountCheck extends AbstractCheck {
 		TokenTypes.NUM_LONG 
 	};
 	int operandCount = 0;
-	HashSet<String> uniqueOperand = new HashSet<String>(); //hash set only counts unique operands
+	HashSet<String> uniqueOperand = new HashSet<String>();
 	
 	public int getOperandCount() {
 		return operandCount;
@@ -37,7 +37,13 @@ public class OperandCountCheck extends AbstractCheck {
 
 	@Override
 	public void finishTree(DetailAST rootAST) {
-		log(0, "{0} unique operands that appear {1} times.", uniqueOperand.size(), operandCount);
+		try {
+			log(0, "{0} unique operands that appear {1} times.", uniqueOperand.size(), operandCount);
+		}
+		catch (Exception e) {
+			System.out.println("Error: Unable to walk through tree");
+		}
+		
 	}
 
 	@Override
